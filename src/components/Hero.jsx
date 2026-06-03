@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Hero() {
   return (
     <div className="relative bg-slate-900 text-white py-24 px-4 sm:px-6 lg:px-8 overflow-hidden">
@@ -26,18 +28,18 @@ function Hero() {
 
         {/* Bouton principal Vert Émeraude (plus chaleureux que le bleu) */}
         <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
-          <a
-            href="#demarches"
+          <Link
+            to="/vie-de-la-commune"
             className="w-full sm:w-auto bg-emerald-600 hover:bg-emerald-500 text-white font-semibold px-8 py-3 rounded-xl shadow-lg shadow-emerald-900/20 transition-all text-center"
           >
-            Démarches en ligne
-          </a>
-          <a
-            href="#actualites"
-            className="w-full sm:w-auto bg-white/10 hover:bg-white/20 text-white font-medium px-8 py-3 rounded-xl backdrop-blur-sm border border-white/10 transition-all text-center"
+            La vie de notre commune
+          </Link>
+          <Link
+            to="/vie-solidaire"
+            className="w-full sm:w-auto bg-emerald-600 hover:bg-emerald-500 text-white font-semibold px-8 py-3 rounded-xl shadow-lg shadow-emerald-900/20 transition-all text-center"
           >
-            Vie locale & Actualités
-          </a>
+            Vie solidaire
+          </Link>
         </div>
       </div>
     </div>
