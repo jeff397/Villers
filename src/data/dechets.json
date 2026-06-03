@@ -1,0 +1,21 @@
+{
+  "collecte": {
+    "orduresMenageres": "Mardi matin (bac marron)",
+    "triSelectif": "Un vendredi sur deux (bac jaune)",
+    "consignes": "Les bacs doivent être sortis la veille au soir. Le tri sélectif comprend le plastique, le carton et le métal."
+  },
+  "dechetteries": [
+    {
+      "nom": "Déchetterie de Rue",
+      "adresse": "Route de Le Crotoy, 80120 Rue",
+      "horairesEte": "Du lundi au samedi : 9h-12h et 14h-18h",
+      "horairesHiver": "Du lundi au samedi : 9h-12h et 14h-17h"
+    },
+    {
+      "nom": "Déchetterie de Quend",
+      "adresse": "Route de Conchil, 80120 Quend",
+      "horaires": "Se référer aux horaires du syndicat mixte."
+    }
+  ],
+  "lienIntercommunalite": "https://www.ponthieu-marquenterre.fr"
+}

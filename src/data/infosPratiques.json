@@ -1,0 +1,18 @@
+{
+  "mairie": {
+    "adresse": "13 rue de l'Eglise, 80120 Villers-sur-Authie",
+    "telephone": "03 22 29 92 18",
+    "email": "commune.villerssurauthie@orange.fr",
+    "horaires": [
+      { "jour": "Lundi", "heures": "11h00 - 12h00" },
+      { "jour": "Mercredi", "heures": "17h30 - 19h00" }
+    ],
+    "permanenceMaire": "Sur rendez-vous pendant les heures d'ouverture du secrétariat."
+  },
+  "urgences": [
+    { "nom": "SAMU", "numero": "15" },
+    { "nom": "Gendarmerie (Rue)", "numero": "17" },
+    { "nom": "Sapeurs-Pompiers", "numero": "18" },
+    { "nom": "Appel d'Urgence Européen", "numero": "112" }
+  ]
+}

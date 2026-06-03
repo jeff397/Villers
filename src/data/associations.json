@@ -1,0 +1,73 @@
+[
+  {
+    "nom": "Comité des Fêtes",
+    "categorie": "Loisirs",
+    "description": "Organisation des brocantes, de la fête communale, des repas animés et des événements festifs pour rassembler les habitants au fil des saisons.",
+    "paragraphs": [
+      "Le Comité des Fêtes de Villers-sur-Authie a pour but d'animer le village et de créer du lien entre les générations à travers divers événements festifs et culturels tout au long de l'année.",
+      "Parmi nos rendez-vous incontournables, nous organisons la grande brocante annuelle, la fête communale, ainsi que le traditionnel repas de Noël et les animations pour les enfants de la commune.",
+      "Toutes les bonnes volontés et les nouvelles idées sont les bienvenues pour rejoindre notre équipe de bénévoles dynamiques !"
+    ],
+    "president": "Jean-Pierre Martin",
+    "telephone": "06 12 34 56 78",
+    "email": "comite.villers@email.fr",
+    "site": ""
+  },
+  {
+    "nom": "Club des Aînés (L'Automne Doré)",
+    "categorie": "Social",
+    "description": "Rencontres hebdomadaires, jeux de cartes, après-midis récréatifs et sorties culturelles pour nos seniors afin de rompre l'isolement.",
+    "paragraphs": [
+      "L'Automne Doré propose aux seniors de Villers-sur-Authie et des environs de se retrouver dans une ambiance chaleureuse et conviviale.",
+      "Nous nous réunissons tous les jeudis après-midi à la salle des fêtes pour partager des jeux de société, des parties de cartes, et un goûter. L'association organise également deux sorties culturelles par an et un grand repas de printemps.",
+      "Cotisation annuelle : 15€ par personne."
+    ],
+    "president": "Marie-Thérèse Dubois",
+    "telephone": "03 22 45 67 89",
+    "email": "",
+    "site": ""
+  },
+  {
+    "nom": "Association de Chasse de la Vallée",
+    "categorie": "Nature & Loisirs",
+    "description": "Gestion de la faune sauvage, entretien des espaces naturels communaux et organisation des battues réglementaires dans le respect de l'environnement.",
+    "paragraphs": [
+      "Notre association rassemble les passionnés de chasse de la commune autour d'une vision responsable et respectueuse de la biodiversité locale.",
+      "En étroite collaboration avec la fédération et la municipalité, nous participons activement à la régulation des espèces, à la prévention des dégâts aux cultures et à l'entretien des chemins de randonnée et des espaces boisés.",
+      "Les jours de battues sont systématiquement affichés en mairie et aux entrées des bois pour la sécurité de tous."
+    ],
+    "president": "Michel Lambert",
+    "telephone": "06 98 76 54 32",
+    "email": "chasse.villers80@email.fr",
+    "site": ""
+  },
+  {
+    "nom": "Gym Volontaire de l'Authie",
+    "categorie": "Sport",
+    "description": "Cours de gymnastique douce, de renforcement musculaire et de fitness pour tous les âges à la salle des fêtes du village.",
+    "paragraphs": [
+      "La Gym Volontaire propose des activités sportives adaptées à tous les niveaux, de l'entretien physique à la gym douce.",
+      "Les séances ont lieu à la salle des fêtes chaque mardi de 19h00 à 20h00 (hors vacances scolaires). Les cours sont dispensés par un animateur diplômé d'État.",
+      "Tarifs : 80€ à l'année (licence incluse). Certificat médical obligatoire à l'inscription. Possibilité de faire deux séances d'essai gratuites."
+    ],
+    "president": "Sophie Petit",
+    "telephone": "06 11 22 33 44",
+    "email": "gym.villers@email.fr",
+    "site": ""
+  },
+  {
+    "nom": "Les marcheurs villersois",
+    "categorie": "Sport",
+    "description": "Le club de marche de Villers, fort d'une quinzaine de membres organisent une sortie de 10kms chaque lundi matin avec comme destination la mer, la forêt ou la campagne.",
+    "paragraphs": [
+      "Aux beaux jours, nous organisons des sorties sur la journée avec pique-nique et également un séjour dans les régions voisines. En 2025, nous avons découverts les Flandres.",
+      "Nous participons également aux différentes marches organisées par les clubs voisins : la Gapennoise, la Vronnaise, la Forestière, la Samarienne, la Médiévale et le Téléthon à Fort-Mahon.",
+      "Nous vous sollicitons pour le parcours du Coeur, qui en 2025 a rassemblé 80 personnes pour une marche, un trail ou une sortie vélo avec à la clef un chéque de 480e versé à la Fédération française de Cardiologie. En 2026, le parcours du coeur aura lieu le dimanche 3 mars. Venez nombreux !",
+      "Bienvenue aux futurs marcheurs qui voudraient adhérer au club !"
+    ],
+    "president": "Sophie Petit",
+    "telephone": "06 11 22 33 44",
+    "email": "gym.villers@email.fr",
+    "site": ""
+  }
+]

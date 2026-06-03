@@ -1,0 +1,56 @@
+[
+  {
+    "id": "frelons",
+    "icone": "ShieldAlert",
+    "titre": "Nids de guêpes et frelons asiatiques",
+    "resume": "Protocoles, signalements et aides de la commune pour la destruction.",
+    "paragraphs": [
+      "La prolifération du frelon asiatique représente un danger pour la biodiversité et la sécurité publique. Ne tentez jamais de détruire un nid par vous-même.",
+      "Procédure obligatoire : Tout nid suspect doit être signalé en mairie. Un agent passera valider s'il s'agit bien de frelons asiatiques pour déclencher l'intervention d'une entreprise agréée.",
+      "Pour les nids de guêpes classiques situés sur le domaine privé, la destruction reste à la charge exclusive du propriétaire."
+    ],
+    "important": "Tout nid suspect doit être signalé en mairie avant toute démarche de destruction."
+  },
+  {
+    "id": "bruit",
+    "icone": "Volume2",
+    "titre": "Bruits de voisinage et tonte",
+    "resume": "Horaires autorisés pour les travaux de jardinage et de bricolage bruyants.",
+    "paragraphs": [
+      "Par arrêté préfectoral, les travaux de bricolage ou de jardinage réalisés par des particuliers à l'aide d'outils susceptibles de causer une gêne pour le voisinage (tondeuse, tronçonneuse, perceuse...) ne sont autorisés qu'aux horaires suivants :",
+      "• Jours ouvrés : 8h30 - 12h00 et 14h30 - 19h30\n• Samedis : 9h00 - 12h00 et 15h00 - 19h00\n• Dimanches et jours fériés : 10h00 - 12h00 (uniquement)",
+      "Les propriétaires d'animaux (notamment les chiens) doivent également veiller à éviter les aboiements répétés ou prolongés pour le bien-être de tous."
+    ]
+  },
+  {
+    "id": "haies",
+    "icone": "TreePine",
+    "titre": "Entretien des haies et élagage",
+    "resume": "Obligations de taille le long des voies publiques et mitoyenneté.",
+    "paragraphs": [
+      "Les propriétaires ou locataires ont l'obligation de couper les branches et les haies qui dépassent sur l'alignement des voies publiques (rues, trottoirs, chemins de randonnée) afin de ne pas gêner la circulation des piétons et la visibilité des panneaux.",
+      "Rappel mitoyenneté : Sauf règlement spécifique, les plantations de plus de 2 mètres de hauteur doivent être situées à au moins 2 mètres de la limite séparative du voisin (0,50 mètre pour les plantations plus basses)."
+    ]
+  },
+  {
+    "id": "demenagement",
+    "icone": "Key",
+    "titre": "Emménagements & Déménagements",
+    "resume": "Démarches en mairie, occupation de la voirie et listes électorales.",
+    "paragraphs": [
+      "Bienvenue aux nouveaux habitants de Villers-sur-Authie ! Pensez à vous présenter au secrétariat de la mairie pour vous inscrire sur les listes électorales de la commune et demander vos bacs de tri ainsi que le calendrier de collecte.",
+      "Stationnement : Si votre déménagement nécessite de bloquer temporairement une rue ou d'occuper des places de voirie avec un camion, veuillez déposer une demande d'arrêté de voirie en mairie au moins 8 jours avant."
+    ]
+  },
+  {
+    "id": "boites",
+    "icone": "Mail",
+    "titre": "Boîtes aux lettres et numérotation",
+    "resume": "Normes de distribution postale et affichage du numéro de maison.",
+    "paragraphs": [
+      "Pour garantir la bonne distribution de votre courrier et faciliter l'arrivée des secours (SAMU, Sapeurs-Pompiers) :",
+      "Le numéro de votre habitation attribué par la mairie doit être rendu parfaitement visible depuis la rue.",
+      "Votre boîte aux lettres doit être accessible pour le facteur, normalisée, et mentionner clairement le nom des résidents."
+    ]
+  }
+]

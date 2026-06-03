@@ -1,0 +1,92 @@
+[
+  {
+    "nom": "Boulangerie de l'Authie",
+    "categorie": "Alimentation",
+    "description": "Pain artisanal, viennoiseries pur beurre et pâtisseries maison cuites sur place chaque matin.",
+    "paragraphs": [
+      "La Boulangerie de l'Authie vous accueille chaleureusement toute la semaine pour vous faire découvrir ses pains spéciaux, ses baguettes de tradition et ses spécialités picardes.",
+      "Nous proposons également une formule sandwich le midi pour les travailleurs et les randonneurs de passage.",
+      "Horaires : Du mardi au samedi de 7h00 à 13h00 et de 15h30 à 19h15. Le dimanche de 7h00 à 12h30. Fermé le lundi."
+    ],
+    "contactNom": "Pierre et Marie Lefèvre",
+    "telephone": "03 22 11 22 33",
+    "email": "",
+    "adresse": "12 Route Nationale, Villers-sur-Authie",
+    "site": ""
+  },
+  {
+    "nom": "Authie Électricité",
+    "categorie": "Artisanat / Travaux",
+    "description": "Installations électriques neuves, rénovation, dépannage rapide et mise en conformité de votre habitat.",
+    "paragraphs": [
+      "Artisan électricien installé à Villers-sur-Authie depuis plus de 10 ans, je réalise tous vos travaux d'électricité générale pour les particuliers et les professionnels.",
+      "Spécialisé également dans la pose de chauffages électriques à inertie, la ventilation (VMC) et l'installation de bornes de recharge pour véhicules électriques.",
+      "Devis gratuit et conseils personnalisés. Dépannage d'urgence 7j/7 sur la commune."
+    ],
+    "contactNom": "Guillaume Roussel",
+    "telephone": "06 23 45 67 89",
+    "email": "authie.elec@email.fr",
+    "adresse": "4 Rue des Entrepreneurs, Villers-sur-Authie",
+    "site": ""
+  },
+  {
+    "nom": "Menuiserie du Marquenterre",
+    "categorie": "Artisanat / Travaux",
+    "description": "Fabrication et pose de fenêtres, portes, volets, parquets et aménagements intérieurs sur mesure.",
+    "paragraphs": [
+      "La Menuiserie du Marquenterre conçoit et réalise vos projets en bois, PVC et aluminium.",
+      "De la rénovation de vos fenêtres à la création d'une terrasse en bois ou d'un dressing sur mesure, nous mettons notre savoir-faire artisanal au service de votre confort.",
+      "Garantie décennale et certification RGE (ouvrant droit aux aides de l'État pour la rénovation énergétique)."
+    ],
+    "contactNom": "Stéphane Moreau",
+    "telephone": "06 88 77 66 55",
+    "email": "contact@menuiserie-marquenterre.fr",
+    "adresse": "18 Rue du Moulin, Villers-sur-Authie",
+    "site": "https://example.com"
+  },
+  {
+    "nom": "Coiffure à Domicile 'Élodie'",
+    "categorie": "Services",
+    "description": "Coiffeuse visagiste certifiée se déplaçant chez vous pour toute la famille.",
+    "paragraphs": [
+      "Plus besoin de courir en ville ! Élodie se déplace à votre domicile à Villers-sur-Authie avec tout le matériel professionnel nécessaire (bac de lavage portatif, produits professionnels).",
+      "Coupes hommes, femmes et enfants, colorations, mèches et coiffures d'événements (mariages, baptêmes).",
+      "Uniquement sur rendez-vous du lundi au samedi de 8h30 à 18h30."
+    ],
+    "contactNom": "Élodie Martin",
+    "telephone": "06 44 55 66 77",
+    "email": "",
+    "adresse": "Villers-sur-Authie et environs",
+    "site": ""
+  },
+  {
+    "nom": "Mme Nathalie Dupont (Assistante Maternelle)",
+    "categorie": "Petite Enfance",
+    "description": "Assistante maternelle agréée disposant de 3 places. Accueil des enfants de 0 à 3 ans dans une maison avec jardin clos.",
+    "paragraphs": [
+      "Nounou Nathalie accueille vos enfants du lundi au vendredi de 7h30 à 18h30.",
+      "Au programme au quotidien : activités d'éveil, motricité, sorties au parc du village quand la météo le permet, et respect du rythme de sommeil de chaque enfant.",
+      "Agrément renouvelé par la PMI. Accepte les horaires atypiques sous conditions."
+    ],
+    "contactNom": "Nathalie Dupont",
+    "telephone": "06 77 88 99 00",
+    "email": "nathalie.nounou80@email.fr",
+    "adresse": "24 Rue de la Mairie, Villers-sur-Authie",
+    "site": ""
+  },
+  {
+    "nom": "Mme Christine Martin (Assistante Maternelle)",
+    "categorie": "Petite Enfance",
+    "description": "Assistante maternelle agréée pour 4 enfants. Environnement calme, sécurisé, sans animaux et non-fumeur.",
+    "paragraphs": [
+      "Dispose actuellement d'une place disponible pour un bébé ou un enfant périscolaire.",
+      "Je participe régulièrement aux activités et ateliers d'éveil proposés par le Relais Petite Enfance (RPE) du secteur.",
+      "Horaires d'accueil flexibles à convenir ensemble."
+    ],
+    "contactNom": "Christine Martin",
+    "telephone": "03 22 55 44 33",
+    "email": "",
+    "adresse": "7 Impasse des Tilleuls, Villers-sur-Authie",
+    "site": ""
+  }
+]

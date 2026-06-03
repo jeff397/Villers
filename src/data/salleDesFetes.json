@@ -1,0 +1,30 @@
+{
+  "capacite": {
+    "assise": 80,
+    "debout": 120,
+    "description": "Salle idéale pour mariages, banquets, fêtes de famille et réunions associatives."
+  },
+  "tarifs": {
+    "habitantsCommune": {
+      "weekEnd": "150 €",
+      "journee": "80 €"
+    },
+    "exterieurs": {
+      "weekEnd": "300 €",
+      "journee": "150 €"
+    },
+    "options": {
+      "vaisselle": "30 €",
+      "chauffageElectricite": "Facturation selon consommation (relevé de compteur)"
+    }
+  },
+  "conditions": {
+    "caution": "500 €",
+    "acompte": "30% à la réservation",
+    "documentsRequis": [
+      "Justificatif de domicile de moins de 3 mois (pour les habitants)",
+      "Attestation d'assurance responsabilité civile organisateur",
+      "Chèque de caution"
+    ]
+  }
+}
