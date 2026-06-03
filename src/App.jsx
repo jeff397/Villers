@@ -16,6 +16,8 @@ import CadreDeVie from "./pages/CadreDeVie";
 import EquipeMunicipale from "./pages/EquipeMunicipale";
 import ComptesRendus from "./pages/ComptesRendus";
 import Procurations from "./pages/Procurations";
+import VieCommune from "./pages/VieCommune";
+import VieSolidaire from "./pages/VieSolidaire";
 
 function App() {
   return (
@@ -41,6 +43,8 @@ function App() {
             <Route path="/equipe-municipale" element={<EquipeMunicipale />} />
             <Route path="/comptes-rendus" element={<ComptesRendus />} />
             <Route path="/procurations" element={<Procurations />} />
+            <Route path="/vie-de-la-commune" element={<VieCommune />} />
+            <Route path="/vie-solidaire" element={<VieSolidaire />} />
           </Routes>
         </main>
 
