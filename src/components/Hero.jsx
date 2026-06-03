@@ -2,7 +2,7 @@ function Hero() {
   return (
     <div className="relative bg-slate-900 text-white py-24 px-4 sm:px-6 lg:px-8 overflow-hidden">
       {/* Image de fond avec une opacité un peu plus chaleureuse */}
-      <div className="absolute inset-0 opacity-15 bg-[url('https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&w=1200&q=80')] bg-cover bg-center"></div>
+      <div className="absolute inset-0 opacity-15 bg-[url('/mairie.webp')] bg-cover bg-center"></div>
 
       <div className="relative max-w-4xl mx-auto text-center">
         {/* Petite étiquette verte/nature */}
