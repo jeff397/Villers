@@ -1,0 +1,13 @@
+{
+  "2026": {
+    "jeunesse": {
+      "entree6eme": { "nombre": 12, "aide": 25 },
+      "diplomes": { "nombre": 5, "aide": 35 },
+      "noel": { "nombreJouets": 45 }
+    },
+    "aines": {
+      "plusDe65ans": { "totalPersonnes": 20 },
+      "de60a64ans": { "totalPersonnes": 11 }
+    }
+  }
+}

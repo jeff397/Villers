@@ -1,0 +1,34 @@
+{
+  "2026": {
+    "naissances": [
+      { "nom": "MARTIN", "prenom": "Léo", "date": "15/05/2026" },
+      { "nom": "DELBECQ", "prenom": "Marius", "date": "01/06/2026" }
+    ],
+
+    "mariages": [
+      {
+        "nom1": "DUPONT",
+        "prenom1": "Jean",
+        "nom2": "DURAND",
+        "prenom2": "Marie",
+        "date": "01/06/2026"
+      }
+    ],
+    "pacs": [
+      {
+        "nom1": "LEFEBVRE",
+        "prenom1": "Paul",
+        "nom2": "MOREAU",
+        "prenom2": "Julie",
+        "date": "10/05/2026"
+      }
+    ],
+    "deces": [{ "nom": "BERNARD", "prenom": "Jean", "date": "28/05/2026" }]
+  },
+  "2025": {
+    "naissances": [],
+    "mariages": [],
+    "pacs": [],
+    "deces": []
+  }
+}
