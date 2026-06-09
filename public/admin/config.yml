@@ -1,7 +1,5 @@
-local_backend: true
-
 backend:
-  name: github
+  name: git-gateway
   repo: "jeff397/Villers"
   branch: main
 
@@ -490,7 +488,7 @@ collections:
             name: "tarifs"
             widget: "object"
             fields:
-              - label: "Habitants de Villers-sur-Authie"
+              - label: "Habitants de la commune"
                 name: "habitantsCommune"
                 widget: "object"
                 fields:
@@ -613,9 +611,9 @@ collections:
                   name: "lienPdf",
                   widget: "file",
                 }
-    # =========================================================================
-    # 10. CONFIGURATION DES COMPTES-RENDUS
-    # =========================================================================
+  # =========================================================================
+  # 10. CONFIGURATION DES COMPTES-RENDUS
+  # =========================================================================
   - name: "comptes_rendus_data"
     label: "Comptes-rendus du Conseil"
     delete: false
@@ -635,7 +633,7 @@ collections:
                   label: "Titre du compte-rendu",
                   name: "titre",
                   widget: "string",
-                  placeholder: "Ex: Compte-rendu du Conseil Municipal - 14 Avril 2026",
+                  placeholder: "Ex: Compte-rendu du Conseil Municipal",
                 }
               - {
                   label: "Date de publication",
@@ -650,9 +648,9 @@ collections:
                   media_folder: "/public/documents/comptes-rendus",
                   public_folder: "/documents/comptes-rendus",
                 }
-    # =========================================================================
-    # 11. CONFIGURATION DES BANDEAUX ALERTES
-    # =========================================================================
+  # =========================================================================
+  # 11. CONFIGURATION DES BANDEAUX ALERTES
+  # =========================================================================
   - name: "alertes_commune"
     label: "Gestion des Alertes"
     delete: false
@@ -680,7 +678,7 @@ collections:
               label: "Message à afficher",
               name: "message",
               widget: "string",
-              placeholder: "Ex: Travaux Grande Rue : Circulation alternée jusqu'au 15 juin.",
+              placeholder: "Ex: Travaux Grande Rue : Circulation alternée.",
             }
           - {
               label: "Lien optionnel (ex: /mot-du-maire)",
