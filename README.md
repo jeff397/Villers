@@ -92,8 +92,9 @@ Ce template est entièrement personnalisable et adaptable pour n'importe quelle 
 
 Pour toute demande de démonstration, de déploiement ou de contrat de maintenance web :
 
-- **Développeur :** Monsieur DELMOTTE
+- **Développeur :** Monsieur DELMOTTE Jean-François
 - **Profils :** Freelance Concepteur & Développeur Web Front-End
+- **Email professionnel :** jeffdelmotte@gmail.com
 
 ```
 
