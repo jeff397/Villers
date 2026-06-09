@@ -1,6 +1,6 @@
 {
   "actif": true,
-  "type": "info",
-  "message": "Travaux sur la voirie en cours ",
+  "type": "urgence",
+  "message": "Test du système d'alerte municipal",
   "lien": ""
 }
