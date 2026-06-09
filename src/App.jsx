@@ -1,5 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { useEffect } from "react";
 import ScrollToAnchor from "./components/ScrollToAnchor";
+import BandeauAlerte from "./components/BandeauAlerte";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
@@ -19,16 +21,25 @@ import Procurations from "./pages/Procurations";
 import VieCommune from "./pages/VieCommune";
 import VieSolidaire from "./pages/VieSolidaire";
 
+function AdminRedirect() {
+  useEffect(() => {
+    window.location.replace("/admin/index.html");
+  }, []);
+  return null;
+}
+
 function App() {
   return (
     <Router>
       <ScrollToAnchor />
 
       <div className="min-h-screen bg-slate-50 text-slate-900 flex flex-col">
+        <BandeauAlerte />
         <Navbar />
 
         <main className="grow">
           <Routes>
+            <Route path="/admin" element={<AdminRedirect />} />
             <Route path="/" element={<Home />} />
             <Route path="/etat-civil" element={<EtatCivil />} />
             <Route path="/urbanisme" element={<Urbanisme />} />
