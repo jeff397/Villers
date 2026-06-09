@@ -1,22 +1,22 @@
-[
-  {
-    "id": 1,
-    "nom": "Le Gîte de la Vallée",
-    "type": "Gîte rural",
-    "capacite": "4-6 personnes",
-    "description": "Charmante maison en briques située au cœur du village, idéale pour les randonneurs.",
-    "telephone": "03 22 XX XX XX",
-    "email": "contact@gitedelavallee.fr",
-    "siteWeb": "https://www.gitedelavallee.fr"
-  },
-  {
-    "id": 2,
-    "nom": "Chambre d'hôtes L'Authie",
-    "type": "Chambre d'hôtes",
-    "capacite": "2 personnes",
-    "description": "Chambre tout confort avec petit-déjeuner inclus et jardin privatif.",
-    "telephone": "06 XX XX XX XX",
-    "email": "jean.dupont@gmail.com",
-    "siteWeb": ""
-  }
-]
+{
+  "gites": [
+    {
+      "nom": "Le Gîte de la Vallée",
+      "type": "Gîte rural",
+      "capacite": "4-6 personnes",
+      "description": "Charmante maison en briques située au cœur du village, idéale pour les randonneurs.",
+      "telephone": "03 22 XX XX XX",
+      "email": "contact@gitedelavallee.fr",
+      "siteWeb": "https://www.gitedelavallee.fr"
+    },
+    {
+      "nom": "Chambre d'hôtes L'Authie",
+      "type": "Chambre d'hôtes",
+      "capacite": "2 personnes",
+      "description": "Chambre tout confort avec petit-déjeuner inclus et jardin privatif.",
+      "telephone": "06 XX XX XX XX",
+      "email": "jean.dupont@gmail.com",
+      "siteWeb": ""
+    }
+  ]
+}

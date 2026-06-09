@@ -1,0 +1,19 @@
+{
+  "messageVedette": {
+    "titre": "Bienvenue sur le nouveau site internet de notre commune !",
+    "datePublication": "Juin 2026",
+    "photo": "/maire.jpg",
+    "introduction": "Chères habitantes, chers habitants, chers visiteurs,",
+    "paragraphs": [
+      "C'est avec une grande fierté que nous vous présentons aujourd'hui la nouvelle vitrine numérique de Villers-sur-Authie. Plus moderne, plus accessible et résolument tournée vers le quotidien de notre village, cette plateforme a été pensée pour vous faciliter la vie.",
+      "Vous y trouverez en quelques clics les horaires du secrétariat, les modalités de réservation de notre salle des fêtes, les consignes de tri, ainsi que toute l'actualité de nos artisans et associations. Notre volonté est de renforcer le lien entre la municipalité et les administrés, tout en offrant un espace de découverte chaleureux pour ceux qui souhaitent visiter notre belle vallée de l'Authie.",
+      "Ce site évoluera avec le temps et s'enrichira régulièrement de vos informations, des comptes-rendus de conseils municipaux et des événements à venir. Nous vous invitons à l'explorer dès aujourd'hui et à vous l'approprier."
+    ],
+    "signature": "Le Conseil Municipal & Monsieur le Maire"
+  },
+  "archives": [],
+  "titreActuel": "Voeux du maires ",
+  "periodeActuelle": "janvier 2026",
+  "pdfActuel": "/documents/actualites/bulletin.pdf",
+  "resumeCourt": "Retrouvez le mot du maire "
+}
