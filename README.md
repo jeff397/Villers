@@ -6,6 +6,8 @@ Ce projet, initialement conçu pour la commune de \*\*\*\*, a été développé 
 
 ---
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5c56a6d7-d5dc-452c-92ce-553e1ace7424/deploy-status)](https://app.netlify.com/projects/vitrine-mairie-react/deploys)
+
 ## 🚀 Fonctionnalités Clés
 
 - **📰 Flux d'Actualités & Événements Dynamique :** Une grille moderne avec filtres par catégorie (Travaux, Événements, Vie Locale), badges de couleur, effets de survol fluides et alertes/flashs infos de dernière minute (ex: coupures d'eau, vigilances).
