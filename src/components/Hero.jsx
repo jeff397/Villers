@@ -3,20 +3,17 @@ import { Link } from "react-router-dom";
 function Hero() {
   return (
     <div className="relative bg-slate-900 text-white py-24 px-4 sm:px-6 lg:px-8 overflow-hidden">
-      {/* Image de fond avec une opacité un peu plus chaleureuse */}
-      <div className="absolute inset-0 opacity-15 bg-[url('/mairie.webp')] bg-cover bg-center"></div>
+      <div className="absolute inset-0 opacity-35 bg-[url('/mairie.jpg')] bg-cover bg-center"></div>
 
       <div className="relative max-w-4xl mx-auto text-center">
-        {/* Petite étiquette verte/nature */}
         <span className="text-emerald-400 uppercase tracking-widest text-xs font-bold block mb-3 bg-emerald-950/50 w-fit mx-auto px-3 py-1 rounded-full border border-emerald-800/30">
-          Vallée de l'Authie — Somme
+          Votre commune — Département
         </span>
 
-        {/* Titre avec un dégradé chaleureux Ambre -> Émeraude */}
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight mb-6">
           Bienvenue à{" "}
           <span className="text-transparent bg-clip-text bg-linear-to-r from-amber-300 via-emerald-400 to-cyan-300">
-            Villers-sur-Authie
+            Votre commune
           </span>
         </h1>
 
@@ -26,7 +23,6 @@ function Hero() {
           toute simplicité.
         </p>
 
-        {/* Bouton principal Vert Émeraude (plus chaleureux que le bleu) */}
         <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
           <Link
             to="/vie-de-la-commune"

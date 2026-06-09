@@ -1,10 +1,9 @@
-// IMPORTATION DES ICÔNES :
 import {
-  Users, // Pour Associations & Loisirs
-  ShoppingBag, // Pour Artisans & Commerces
-  Compass, // Pour Hébergements & Tourisme
-  Leaf, // CHANGÉ : Une feuille à la place de la poubelle Trash2 !
-  Tent, // Pour Salle des Fêtes
+  Users,
+  ShoppingBag,
+  Compass,
+  Leaf,
+  Tent,
   MessageSquareText,
 } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -33,9 +32,9 @@ function Services() {
       iconBg: "bg-white/20 border-white/20",
     },
     {
-      title: "Cadre de Vie & Civisme", // Gardé tel quel
+      title: "Cadre de Vie & Civisme",
       desc: "Règles de bon voisinage, entretien des haies, bruits de tonte, nids de frelons...",
-      icon: <Leaf className="w-6 h-6 text-white" />, // Icone mise à jour
+      icon: <Leaf className="w-6 h-6 text-white" />,
       bg: "bg-green-600 hover:bg-green-700 text-white border-green-500 shadow-green-900/10",
       iconBg: "bg-white/20 border-white/20",
     },
@@ -58,7 +57,6 @@ function Services() {
   return (
     <section className="pt-16 pb-48 bg-slate-50" id="demarches">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* TITRE DE LA SECTION MIS À JOUR */}
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-slate-900 tracking-tight">
             Au cœur de notre village
@@ -70,7 +68,6 @@ function Services() {
           </p>
         </div>
 
-        {/* LA GRILLE DES BOUTONS/CARTES */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {demarches.map((item, index) => {
             const cardClasses = `group p-6 rounded-2xl border shadow-lg hover:-translate-y-1 transition-all duration-200 flex items-start space-x-4 text-left ${item.bg}`;
@@ -93,7 +90,6 @@ function Services() {
               </>
             );
 
-            // 1. ROUTE ASSOCIATIONS
             if (item.title === "Associations & Loisirs") {
               return (
                 <Link key={index} to="/associations" className={cardClasses}>
@@ -102,7 +98,6 @@ function Services() {
               );
             }
 
-            // 2. ROUTE ARTISANS
             if (item.title === "Artisans & Commerces") {
               return (
                 <Link key={index} to="/professionnels" className={cardClasses}>
@@ -111,7 +106,6 @@ function Services() {
               );
             }
 
-            // 3. ROUTE TOURISME
             if (item.title === "Hébergements & Tourisme") {
               return (
                 <Link key={index} to="/tourisme" className={cardClasses}>
@@ -120,7 +114,6 @@ function Services() {
               );
             }
 
-            // 4. ROUTE CADRE DE VIE (CORRIGÉE : Même titre que dans le tableau !)
             if (item.title === "Cadre de Vie & Civisme") {
               return (
                 <Link key={index} to="/cadre-de-vie" className={cardClasses}>
@@ -129,7 +122,6 @@ function Services() {
               );
             }
 
-            // 5. ROUTE SALLE DES FÊTES
             if (item.title === "Salle des Fêtes") {
               return (
                 <Link key={index} to="/salle-des-fetes" className={cardClasses}>
@@ -138,7 +130,6 @@ function Services() {
               );
             }
 
-            // 6. ROUTE LE MOT DU MAIRE
             if (item.title === "Le Mot du Maire") {
               return (
                 <Link key={index} to="/mot-du-maire" className={cardClasses}>

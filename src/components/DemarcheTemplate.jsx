@@ -18,7 +18,6 @@ function DemarcheTemplate({
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900 py-12">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* BOUTON RETOUR */}
         <button
           onClick={onBack}
           className="inline-flex items-center text-sm font-semibold text-slate-600 hover:text-emerald-600 mb-8 group transition-colors cursor-pointer"
@@ -27,7 +26,6 @@ function DemarcheTemplate({
           Retour à l'accueil
         </button>
 
-        {/* EN-TÊTE DE LA DÉMARCHE */}
         <div className="bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 shadow-xs mb-8">
           <h1 className="text-3xl font-extrabold text-slate-900 tracking-tight mb-4">
             {title}
@@ -36,7 +34,6 @@ function DemarcheTemplate({
             {description}
           </p>
 
-          {/* DURÉE / DÉLAI */}
           {delay && (
             <div className="mt-6 flex items-center gap-2 text-sm font-medium text-amber-800 bg-amber-50 border border-amber-200 w-fit px-4 py-2 rounded-xl">
               <Clock className="w-4 h-4 text-amber-600" />
@@ -46,9 +43,7 @@ function DemarcheTemplate({
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {/* COLONNE GAUCHE (2/3) : PIÈCES ET ÉTAPES */}
           <div className="md:col-span-2 space-y-8">
-            {/* LISTE DES PIÈCES À FOURNIR */}
             <div className="bg-white border border-slate-200 rounded-3xl p-6 shadow-xs">
               <h2 className="text-xl font-bold text-slate-900 mb-4 flex items-center">
                 <FileCheck className="w-5 h-5 mr-2 text-emerald-600" />
@@ -67,7 +62,6 @@ function DemarcheTemplate({
               </ul>
             </div>
 
-            {/* ÉTAPES DE LA DÉMARCHE */}
             <div className="bg-white border border-slate-200 rounded-3xl p-6 shadow-xs">
               <h2 className="text-xl font-bold text-slate-900 mb-6 flex items-center">
                 <ShieldAlert className="w-5 h-5 mr-2 text-blue-600" />
@@ -91,7 +85,6 @@ function DemarcheTemplate({
             </div>
           </div>
 
-          {/* COLONNE DROITE (1/3) : ACTION / LIEN OFFICIEL */}
           <div className="md:col-span-1">
             <div className="bg-slate-900 text-white rounded-3xl p-6 shadow-xl sticky top-6 text-center">
               <h3 className="font-bold text-lg mb-2">Faire la démarche</h3>
