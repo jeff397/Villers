@@ -13,7 +13,6 @@ export default function InfosPratiques() {
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-12">
-      {/* EN-TÊTE */}
       <div className="text-center mb-12">
         <span className="text-xs font-semibold text-slate-700 bg-slate-100 px-2.5 py-1 rounded-full uppercase tracking-wider">
           Vie municipale
@@ -29,7 +28,6 @@ export default function InfosPratiques() {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-        {/* BLOC 1 : HORAIRES & PERMANENCES */}
         <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm space-y-6">
           <div className="flex items-center gap-3">
             <div className="p-2.5 bg-slate-100 text-slate-700 rounded-xl">
@@ -72,7 +70,6 @@ export default function InfosPratiques() {
           </div>
         </div>
 
-        {/* BLOC 2 : CONTACTS DE LA MAIRIE */}
         <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm space-y-6">
           <div className="flex items-center gap-3">
             <div className="p-2.5 bg-emerald-50 text-emerald-600 rounded-xl">
@@ -122,7 +119,6 @@ export default function InfosPratiques() {
           </div>
         </div>
 
-        {/* BLOC 3 : NUMÉROS D'URGENCE */}
         <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm space-y-6">
           <div className="flex items-center gap-3">
             <div className="p-2.5 bg-red-50 text-red-600 rounded-xl">

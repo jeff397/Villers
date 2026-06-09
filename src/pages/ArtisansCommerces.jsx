@@ -9,33 +9,40 @@ import {
   X,
   Info,
 } from "lucide-react";
-import listeCommerces from "../data/commerces.json";
+import listeCommercesData from "../data/commerces.json";
 
 function ArtisansCommerces() {
+  // 1. Extraction sécurisée du tableau des commerces
+  const listeCommerces = listeCommercesData.commerces || [];
+
   const [categorieFiltre, setCategorieFiltre] = useState("Tous");
   const [recherche, setRecherche] = useState("");
   const [commerceSelectionne, setCommerceSelectionne] = useState(null);
 
-  // Catégories uniques
+  // Catégories uniques générées à la volée
   const categories = [
     "Tous",
-    ...new Set(listeCommerces.map((c) => c.categorie)),
+    ...new Set(listeCommerces.map((c) => c.categorie).filter(Boolean)),
   ];
 
-  // Filtrage
+  // Filtrage intelligent
   const commercesFiltrés = listeCommerces.filter((comm) => {
+    const nomComm = comm.nom || "";
+    const descComm = comm.description || "";
+    const contactComm = comm.contactNom || "";
+    const catComm = comm.categorie || "";
+
     const correspondCategorie =
-      categorieFiltre === "Tous" || comm.categorie === categorieFiltre;
+      categorieFiltre === "Tous" || catComm === categorieFiltre;
     const correspondRecherche =
-      comm.nom.toLowerCase().includes(recherche.toLowerCase()) ||
-      comm.description.toLowerCase().includes(recherche.toLowerCase()) ||
-      comm.contactNom.toLowerCase().includes(recherche.toLowerCase());
+      nomComm.toLowerCase().includes(recherche.toLowerCase()) ||
+      descComm.toLowerCase().includes(recherche.toLowerCase()) ||
+      contactComm.toLowerCase().includes(recherche.toLowerCase());
     return correspondCategorie && correspondRecherche;
   });
 
   return (
     <div className="max-w-7xl mx-auto px-4 pt-28 pb-12 relative">
-      {/* En-tête */}
       <div className="border-b border-slate-200 pb-6 mb-8">
         <h1 className="text-3xl font-extrabold text-slate-950 tracking-tight flex items-center gap-3">
           <Store className="w-8 h-8 text-emerald-600" />
@@ -43,21 +50,19 @@ function ArtisansCommerces() {
         </h1>
         <p className="text-slate-600 mt-2">
           Soutenez l'économie locale ! Retrouvez les commerçants, artisans et
-          professionnels de santé qui font vivre Villers-sur-Authie au
-          quotidien.
+          professionnels qui font vivre Villers-sur-Authie au quotidien.
         </p>
       </div>
 
-      {/* Barre de recherche et filtres */}
       <div className="flex flex-col md:flex-row gap-4 items-center justify-between mb-8 bg-slate-100/60 p-4 rounded-2xl border border-slate-200/50">
         <div className="flex flex-wrap gap-2 w-full md:w-auto">
           {categories.map((cat, idx) => (
             <button
               key={idx}
               onClick={() => setCategorieFiltre(cat)}
-              className={`px-4 py-2 rounded-xl text-xs font-bold uppercase tracking-wider transition-all duration-150 ${
+              className={`px-4 py-2 rounded-xl text-xs font-bold uppercase tracking-wider transition-all duration-150 cursor-pointer ${
                 categorieFiltre === cat
-                  ? "bg-emerald-600 text-white shadow-sm"
+                  ? "bg-emerald-600 text-white shadow-xs"
                   : "bg-white text-slate-600 border border-slate-200 hover:bg-slate-50"
               }`}
             >
@@ -78,7 +83,6 @@ function ArtisansCommerces() {
         </div>
       </div>
 
-      {/* Grille des commerces */}
       {commercesFiltrés.length > 0 ? (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {commercesFiltrés.map((comm, index) => (
@@ -121,7 +125,6 @@ function ArtisansCommerces() {
         </div>
       )}
 
-      {/* Info bas de page */}
       <div className="mt-12 bg-emerald-50 rounded-2xl border border-emerald-100 p-6 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
           <h3 className="font-bold text-emerald-950 text-base">
@@ -140,9 +143,6 @@ function ArtisansCommerces() {
         </a>
       </div>
 
-      {/* ==========================================
-          MODALE DÉTAILLÉE DE L'ARTISAN
-          ========================================== */}
       {commerceSelectionne && (
         <div
           className="fixed inset-0 bg-slate-900/60 backdrop-blur-xs flex items-center justify-center p-4 z-50 animate-in fade-in duration-200"
@@ -172,25 +172,27 @@ function ArtisansCommerces() {
               </strong>
             </p>
 
-            {/* Description détaillée */}
             <div className="mb-6">
               <h3 className="text-xs font-bold uppercase tracking-wider text-slate-400 mb-3">
                 Activité & Horaires
               </h3>
               <div className="text-sm text-slate-700 leading-relaxed text-justify space-y-4">
-                {commerceSelectionne.paragraphs.map((paragraphe, idx) => (
-                  <p key={idx}>{paragraphe}</p>
-                ))}
+                {commerceSelectionne.paragraphs &&
+                commerceSelectionne.paragraphs.length > 0 ? (
+                  commerceSelectionne.paragraphs.map((paragraphe, idx) => (
+                    <p key={idx}>{paragraphe}</p>
+                  ))
+                ) : (
+                  <p>{commerceSelectionne.description}</p>
+                )}
               </div>
             </div>
 
-            {/* Coordonnées */}
             <div className="border-t border-slate-100 pt-6">
               <h3 className="text-xs font-bold uppercase tracking-wider text-slate-400 mb-3">
                 Informations Pratiques
               </h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                {/* ADRESSE PHYSIQUE */}
                 {commerceSelectionne.adresse && (
                   <div className="flex items-center gap-3 p-3 rounded-xl border border-slate-100 text-sm text-slate-700 sm:col-span-2 bg-slate-50/50">
                     <MapPin className="w-5 h-5 text-emerald-600 shrink-0" />

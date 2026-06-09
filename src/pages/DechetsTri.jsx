@@ -6,7 +6,6 @@ export default function DechetsTri() {
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-12">
-      {/* EN-TÊTE DE LA PAGE */}
       <div className="text-center mb-12">
         <span className="text-xs font-semibold text-green-700 bg-green-50 px-2.5 py-1 rounded-full uppercase tracking-wider">
           Environnement & Cadre de vie
@@ -22,7 +21,6 @@ export default function DechetsTri() {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-        {/* BLOC 1 : CALENDRIER DE COLLECTE */}
         <div className="md:col-span-2 space-y-6">
           <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm">
             <div className="flex items-center gap-3 mb-4">
@@ -59,7 +57,6 @@ export default function DechetsTri() {
             </p>
           </div>
 
-          {/* LIEN VERS L'INTERCOMMUNALITÉ */}
           <div className="bg-[#1E4620] text-white p-6 rounded-2xl shadow-sm flex flex-col sm:flex-row justify-between items-center gap-4">
             <div>
               <h4 className="font-bold text-lg">
@@ -81,7 +78,6 @@ export default function DechetsTri() {
           </div>
         </div>
 
-        {/* BLOC 2 : LES DÉCHETTERIES À PROXIMITÉ */}
         <div className="space-y-6">
           <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm h-full">
             <div className="flex items-center gap-3 mb-6">

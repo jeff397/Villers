@@ -56,7 +56,7 @@ function Urbanisme() {
       pieces={dataUrbanisme.pieces}
       steps={dataUrbanisme.steps}
       onlineLink={dataUrbanisme.onlineLink}
-      onBack={() => navigate("/")} // Utilise le routeur pour revenir à la page d'accueil
+      onBack={() => navigate("/")}
     />
   );
 }
