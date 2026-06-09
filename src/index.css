@@ -1,6 +1,5 @@
 @import "tailwindcss";
 
 html {
-  /* Ajoute une marge de défilement en haut pour compenser la Navbar fixe */
-  scroll-padding-top: 5rem; /* Ajuste cette valeur selon la hauteur exacte de ta navbar */
+  scroll-padding-top: 5rem;
 }
