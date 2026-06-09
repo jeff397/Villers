@@ -1,20 +1,12 @@
 {
   "commerces": [
     {
-      "nom": "Catherine Boulanger",
+      "nom": "Catherine Dupont",
       "categorie": "Petite Enfance",
       "description": "Assistante maternelle",
-      "adresse": "10 route de Montreuil",
-      "telephone": "06 40 44 94 13 / 09 67 00 48 30",
-      "contactNom": "Catherine Boulanger"
-    },
-    {
-      "nom": "Anne-Sophie Carouge",
-      "categorie": "Petite Enfance",
-      "description": "Assistante Maternelle",
-      "contactNom": "Anne-Sophie Carouge",
-      "adresse": "2B rue du Carouge",
-      "telephone": "06 77 84 64 60"
+      "adresse": "3 route principale",
+      "telephone": "06 10 20 30 40/ 09 10 20 30 40",
+      "contactNom": "Catherine dupont"
     }
   ]
 }

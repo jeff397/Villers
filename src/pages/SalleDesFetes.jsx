@@ -57,7 +57,7 @@ export default function SalleDesFetes() {
         <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-xs flex flex-col justify-between hover:shadow-md transition-shadow duration-200">
           <div>
             <h4 className="text-lg font-bold text-slate-900">
-              Habitants de Villers-sur-Authie
+              Habitants de Votre commune
             </h4>
             <p className="text-xs text-emerald-600 font-semibold bg-emerald-50 px-2 py-0.5 rounded w-fit mt-2">
               Tarif préférentiel
