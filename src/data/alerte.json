@@ -1,6 +1,6 @@
 {
   "actif": true,
   "type": "urgence",
-  "message": "Il va faire très chaud ! Pensez à vous hydrater et à surveillez nos ainés !",
+  "message": "Test du système d'alerte municipal",
   "lien": ""
 }
