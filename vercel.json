@@ -1,19 +1,11 @@
 {
   "rewrites": [
     {
-      "source": "/admin/config.yml",
-      "destination": "/admin/config.yml"
+      "source": "/admin/:path*",
+      "destination": "/admin/:path*"
     },
     {
-      "source": "/admin",
-      "destination": "/admin/index.html"
-    },
-    {
-      "source": "/admin/",
-      "destination": "/admin/index.html"
-    },
-    {
-      "source": "/((?!admin|config.yml).* )",
+      "source": "/:path*",
       "destination": "/index.html"
     }
   ]
