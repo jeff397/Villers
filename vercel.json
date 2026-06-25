@@ -1,5 +1,4 @@
 {
-  "cleanUrls": true,
   "rewrites": [
     {
       "source": "/admin/config.yml",
@@ -10,11 +9,11 @@
       "destination": "/admin/index.html"
     },
     {
-      "source": "/admin/(.*)",
+      "source": "/admin/",
       "destination": "/admin/index.html"
     },
     {
-      "source": "/((?!api|admin|images|_next|static|[\\w-]+\\.\\w+).*)",
+      "source": "/((?!admin|config.yml).* )",
       "destination": "/index.html"
     }
   ]
