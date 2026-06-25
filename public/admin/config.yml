@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   repo: "jeff397/Villers"
   branch: main
-local_backend: true
+
 media_folder: "public/documents/actualites"
 public_folder: "/documents/actualites"
 
