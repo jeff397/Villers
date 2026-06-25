@@ -246,8 +246,7 @@ collections:
               - label: "Texte de présentation détaillé (Paragraphes dans la Modale)"
                 name: "paragraphs"
                 widget: "list"
-                field:
-                  { label: "Paragraphe", name: "paragraphe", widget: "text" }
+                field: { label: "Paragraphe", widget: "text" }
   # =========================================================================
   # 5. COLLECTION ARTISANS & COMMERCES
   # =========================================================================
@@ -320,8 +319,7 @@ collections:
               - label: "Détails de l'activité & Horaires (Paragraphes dans la Modale)"
                 name: "paragraphs"
                 widget: "list"
-                field:
-                  { label: "Paragraphe", name: "paragraphe", widget: "text" }
+                field: { label: "Paragraphe", widget: "text" }
   # =========================================================================
   # 6. COLLECTION HÉBERGEMENTS & TOURISME
   # =========================================================================
