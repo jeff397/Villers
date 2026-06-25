@@ -645,8 +645,8 @@ collections:
                   label: "Fichier PDF officiel",
                   name: "fichier",
                   widget: "file",
-                  media_folder: "/public/documents/comptes-rendus",
-                  public_folder: "/documents/comptes-rendus",
+                  media_folder: "public/documents/comptes-rendus",
+                  public_folder: "documents/comptes-rendus",
                 }
   # =========================================================================
   # 11. CONFIGURATION DES BANDEAUX ALERTES
