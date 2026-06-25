@@ -1,5 +1,5 @@
 backend:
-  name: git-gateway
+  name: github
   repo: "jeff397/Villers"
   branch: main
 
