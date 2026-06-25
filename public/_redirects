@@ -1,0 +1,6 @@
+# 1. Si on demande l'admin, on sert le fichier physique du CMS
+/admin            /admin/index.html   200
+/admin/* /admin/index.html   200
+
+# 2. Pour toutes les autres routes (comme /login ou /actualites), on laisse React gérer
+/* /index.html         200
