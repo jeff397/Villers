@@ -6,16 +6,13 @@
     <title>Administration - Mairie de Villers</title>
 
     <script>
-      // 1. On vérifie si l'utilisateur est authentifié dans la session
       const isAuthenticated =
         sessionStorage.getItem("admin_authenticated") === "true";
 
-      // 2. Si ce n'est pas le cas, on stoppe tout et on le jette sur la page de login React
       if (!isAuthenticated) {
         window.location.replace("/login");
       }
 
-      // 3. Script magique pour automatiser le mode local si on est sur sa machine
       if (
         window.location.hostname === "localhost" ||
         window.location.hostname === "127.0.0.1"
