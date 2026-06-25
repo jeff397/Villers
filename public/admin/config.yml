@@ -42,7 +42,7 @@ collections:
   # =========================================================================
   - name: "registre_commune"
     label: "Vie de la commune (État Civil)"
-    delete: false # Empêche de supprimer le fichier par erreur
+    delete: false
     files:
       - name: "vie_commune_data"
         label: "Registre de l'État Civil"
@@ -241,12 +241,11 @@ collections:
                   widget: "string",
                   required: false,
                 }
-
-              # LES PARAGRAPHES DE LA MODALE
               - label: "Texte de présentation détaillé (Paragraphes dans la Modale)"
                 name: "paragraphs"
                 widget: "list"
                 field: { label: "Paragraphe", widget: "text" }
+
   # =========================================================================
   # 5. COLLECTION ARTISANS & COMMERCES
   # =========================================================================
@@ -314,12 +313,11 @@ collections:
                   widget: "string",
                   required: false,
                 }
-
-              # LES PARAGRAPHES DE LA MODALE
               - label: "Détails de l'activité & Horaires (Paragraphes dans la Modale)"
                 name: "paragraphs"
                 widget: "list"
                 field: { label: "Paragraphe", widget: "text" }
+
   # =========================================================================
   # 6. COLLECTION HÉBERGEMENTS & TOURISME
   # =========================================================================
@@ -338,18 +336,11 @@ collections:
             summary: "{{fields.nom}} ({{fields.type}})"
             fields:
               - { label: "Nom de l'hébergement", name: "nom", widget: "string" }
-              - {
-                  label: "Type d'hébergement",
-                  name: "type",
-                  widget: "select",
-                  options:
-                    [
-                      "Gîte rural",
-                      "Chambre d'hôtes",
-                      "Camping",
-                      "Gîte d'étape",
-                    ],
-                }
+              - label: "Type d'hébergement"
+                name: "type"
+                widget: "select"
+                options:
+                  ["Gîte rural", "Chambre d'hôtes", "Camping", "Gîte d'étape"]
               - {
                   label: "Capacité d'accueil (ex: 4-6 personnes)",
                   name: "capacite",
@@ -384,6 +375,7 @@ collections:
                   widget: "string",
                   required: false,
                 }
+
   # =========================================================================
   # 7. COLLECTION CADRE DE VIE & VOISINAGE
   # =========================================================================
@@ -435,17 +427,11 @@ collections:
                   widget: "string",
                   required: false,
                 }
-
-              # LES PARAGRAPHES DE CONTENU
               - label: "Contenu détaillé (Paragraphes)"
                 name: "paragraphs"
                 widget: "list"
-                field:
-                  {
-                    label: "Paragraphe de texte",
-                    name: "paragraphe",
-                    widget: "text",
-                  }
+                field: { label: "Paragraphe de texte", widget: "text" }
+
   # =========================================================================
   # 8. CONFIGURATION DE LA SALLE DES FÊTES
   # =========================================================================
@@ -458,7 +444,6 @@ collections:
         file: "src/data/salleDesFetes.json"
         format: "json"
         fields:
-          # CAPACITÉ
           - label: "Capacité d'accueil"
             name: "capacite"
             widget: "object"
@@ -480,8 +465,6 @@ collections:
                   name: "description",
                   widget: "text",
                 }
-
-          # TARIFS
           - label: "Grille Tarifaire"
             name: "tarifs"
             widget: "object"
@@ -528,8 +511,6 @@ collections:
                       name: "chauffageElectricite",
                       widget: "string",
                     }
-
-          # CONDITIONS
           - label: "Conditions & Réservation"
             name: "conditions"
             widget: "object"
@@ -547,12 +528,8 @@ collections:
               - label: "Pièces obligatoires à fournir"
                 name: "documentsRequis"
                 widget: "list"
-                field:
-                  {
-                    label: "Document requis",
-                    name: "document",
-                    widget: "string",
-                  }
+                field: { label: "Document requis", widget: "string" }
+
   # =========================================================================
   # 9. CONFIGURATION DU MOT DU MAIRE (OPTION PDF / CARD)
   # =========================================================================
@@ -565,7 +542,6 @@ collections:
         file: "src/data/motDuMaire.json"
         format: "json"
         fields:
-          # PUBLICATION ACTUELLE
           - {
               label: "Titre de l'édition actuelle",
               name: "titreActuel",
@@ -587,8 +563,6 @@ collections:
               widget: "text",
               required: false,
             }
-
-          # ARCHIVES
           - label: "Archives & Anciens Bulletins"
             name: "archives"
             widget: "list"
@@ -609,6 +583,7 @@ collections:
                   name: "lienPdf",
                   widget: "file",
                 }
+
   # =========================================================================
   # 10. CONFIGURATION DES COMPTES-RENDUS
   # =========================================================================
@@ -646,6 +621,7 @@ collections:
                   media_folder: "public/documents/comptes-rendus",
                   public_folder: "documents/comptes-rendus",
                 }
+
   # =========================================================================
   # 11. CONFIGURATION DES BANDEAUX ALERTES
   # =========================================================================
