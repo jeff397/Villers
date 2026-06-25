@@ -1,5 +1,10 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { useEffect } from "react";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
+
 import ScrollToAnchor from "./components/ScrollToAnchor";
 import BandeauAlerte from "./components/BandeauAlerte";
 import Navbar from "./components/Navbar";
@@ -20,11 +25,17 @@ import ComptesRendus from "./pages/ComptesRendus";
 import Procurations from "./pages/Procurations";
 import VieCommune from "./pages/VieCommune";
 import VieSolidaire from "./pages/VieSolidaire";
+import LoginForm from "./components/LoginForm";
 
 function AdminRedirect() {
-  useEffect(() => {
-    window.location.replace("/admin/index.html");
-  }, []);
+  const isAuthenticated =
+    sessionStorage.getItem("admin_authenticated") === "true";
+
+  if (!isAuthenticated) {
+    return <Navigate to="/login" replace />;
+  }
+
+  window.location.replace("/admin/index.html");
   return null;
 }
 
@@ -40,6 +51,7 @@ function App() {
         <main className="grow">
           <Routes>
             <Route path="/admin" element={<AdminRedirect />} />
+            <Route path="/login" element={<LoginForm />} />
             <Route path="/" element={<Home />} />
             <Route path="/etat-civil" element={<EtatCivil />} />
             <Route path="/urbanisme" element={<Urbanisme />} />
